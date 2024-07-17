@@ -1,6 +1,6 @@
 # TheGlueNote
 
-TheGlueNote is representation model for note-wise music alignment.
+TheGlueNote is a representation model for note-wise music alignment.
 
 The repo structure is as follows:
 - data contains:
@@ -19,7 +19,7 @@ The repo structure is as follows:
 
 ## Installation
 
-clone the repository and make sure you have some dependencies installed (easiest via the `requirements.txt`, except for pytorch which needs to fit your machine):
+clone the repository and make sure you have the dependencies installed (easiest via the `requirements.txt`, except for pytorch which needs to fit your machine):
 - pytorch
 - pytorch-lightning
 - wandb
@@ -35,7 +35,7 @@ clone the repository and make sure you have some dependencies installed (easiest
 This repository is collects data, code, and checkpoints as used for the publication below. 
 The provided scripts allow for testing and (re-)training in a very similar fashion to what was done for the experiments in the paper.
 
-If you want to use TheGlueNote with as little hassle as possible, it is also integrated in [parangonar](https://github.com/sildater/parangonar), 
+If you want to use TheGlueNote to create note alignments with as little hassle as possible, it is integrated in [parangonar](https://github.com/sildater/parangonar), 
 a python library for alignment that is pip-installable and provides a simple interface to apply several note alignment algorithms.
 
 ## Cite us
