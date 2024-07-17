@@ -13,7 +13,7 @@ from configs import (Config,
 
 if __name__ == "__main__":
 
-    config = Config(CONFIG_DEFAULTS_MID)
+    config = Config(CONFIG_DEFAULTS_SMALL)
     DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     data_dir = os.path.join(os.path.dirname(os.getcwd()),"data", "nasap")
     testing_dir = os.path.join(os.path.dirname(os.getcwd()),"data", "testing")
@@ -41,10 +41,10 @@ if __name__ == "__main__":
                             dropout_p=config.dropout)
     head_model.to(DEVICE)
 
-    chp_large = "final_head_runs/head_large_epoch=1546-step=190281.ckpt"
-    chp_mid = "lightning_logs/version_20/checkpoints/epoch=942-step=58466.ckpt"
-    chp_small = "final_head_runs/head_small_2_epoch=2004-step=82205.ckpt"
-    head_chkpt = os.path.join(checkpoints_dir, chp_mid)
+    chp_large = "download from "
+    chp_mid = "release/mid.ckpt"
+    chp_small = "release/small.ckpt"
+    head_chkpt = os.path.join(checkpoints_dir, chp_small)
     lit_decoder_model = LitGlueNoteHead.load_from_checkpoint(gluenote = model,
                                                             gluehead = head_model,
                                                             test_module = test_module,
