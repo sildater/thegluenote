@@ -13,7 +13,6 @@ The repo structure is as follows:
     - `eval`: testing utility
     - `model`: model source code
     - `post`: post-processing of model predictions
-
     - `test.py` : run pre-trained models on the 4x22 data using the testing utility
     - `train.py` : train pre-trained or fresh models on the (n)ASAP data using the synthetic augmentations
 
