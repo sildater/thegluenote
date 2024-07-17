@@ -10,7 +10,6 @@ from parangonar.match.utils import expand_grace_notes #,convert_grace_to_inserti
 import wandb
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
 import matplotlib.pyplot as plt
-import partitura as pt
 import torch
 import json
 

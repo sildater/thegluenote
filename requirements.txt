@@ -1,0 +1,9 @@
+matplotlib==3.7.5
+miditok==3.0.3
+numpy==1.24.4
+parangonar==1.1.0
+scipy==1.11.1
+symusic==0.4.8
+torch==2.2.1+cu118
+lightning==2.0.9
+wandb==0.14.0
