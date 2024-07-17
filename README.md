@@ -4,7 +4,7 @@ TheGlueNote is representation model for note-wise music alignment.
 
 The repo structure is as follows:
 - data contains:
-    - `checkpoints`:  small and mid model, large model [available online]()
+    - `checkpoints`:  small and mid model, large model [available online](https://cloud.cp.jku.at/index.php/s/a35tXfQ9ywWet6t)
     - `nasap`: raw training data based on the MIDI files in the [(n)ASAP dataset](https://github.com/CPJKU/asap-dataset)
     - `testing`: Vienna4x22 data for testing as well as output directories for images and [parangonada files](https://sildater.github.io/parangonada/)
 - src contains:
