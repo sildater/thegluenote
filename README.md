@@ -1,10 +1,10 @@
 # TheGlueNote
 
-TheGlueNote is representation model for note-wise music alignment.
+TheGlueNote is a representation model for note-wise music alignment.
 
 The repo structure is as follows:
 - data contains:
-    - `checkpoints`:  small and mid model, large model [available online](https://cloud.cp.jku.at/index.php/s/em5k9FYfn5grf9A)
+    - `checkpoints`: small and mid model included in repo, large model [available online](https://cloud.cp.jku.at/index.php/s/em5k9FYfn5grf9A)
     - `nasap`: raw training data based on the MIDI files in the [(n)ASAP dataset](https://github.com/CPJKU/asap-dataset)
     - `testing`: Vienna4x22 data for testing as well as output directories for images and [parangonada files](https://sildater.github.io/parangonada/)
 - src contains:
@@ -19,7 +19,7 @@ The repo structure is as follows:
 
 ## Installation
 
-clone the repository and make sure you have some dependencies installed (easiest via the `requirements.txt`, except for pytorch which needs to fit your machine):
+clone the repository and make sure you have the dependencies installed (easiest via the `requirements.txt`, except for pytorch which needs to fit your machine):
 - pytorch
 - pytorch-lightning
 - wandb
@@ -35,8 +35,8 @@ clone the repository and make sure you have some dependencies installed (easiest
 This repository is collects data, code, and checkpoints as used for the publication below. 
 The provided scripts allow for testing and (re-)training in a very similar fashion to what was done for the experiments in the paper.
 
-If you want to use TheGlueNote with as little hassle as possible, it is also integrated in [parangonar](https://github.com/sildater/parangonar), 
-a python library for note alignment that is pip-installable and provides a simple interface to apply several note alignment algorithms.
+If you want to use TheGlueNote to create note alignments with as little hassle as possible, it is integrated in [parangonar](https://github.com/sildater/parangonar), 
+a python library for alignment that is pip-installable and provides a simple interface to apply several note alignment algorithms.
 
 ## Cite us
 
