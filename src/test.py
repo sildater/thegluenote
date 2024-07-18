@@ -41,7 +41,7 @@ if __name__ == "__main__":
                             dropout_p=config.dropout)
     head_model.to(DEVICE)
 
-    chp_large = "download from https://cloud.cp.jku.at/index.php/s/a35tXfQ9ywWet6t"
+    chp_large = "download from https://cloud.cp.jku.at/index.php/s/em5k9FYfn5grf9A"
     chp_mid = "release/mid.ckpt"
     chp_small = "release/small.ckpt"
     head_chkpt = os.path.join(checkpoints_dir, chp_small)
